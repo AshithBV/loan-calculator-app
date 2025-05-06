@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { Box, Button, Container,Stack,Typography } from "@mui/material";
 
 const Home=()=>(
-    <Container>
+    <Container sx={{px:{xs:2,sm:4},py:{xs:2,sm:4}}}>
         <ThemeToggle/>
         <Box
          sx={{
